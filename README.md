@@ -1,7 +1,9 @@
 # dariozecchin.github.io
-Progetto Informatica Umanistica  
+Progetto Informatica Umanistica 
 
-Per iniziare il viaggio accedere alla pagina index.html e cliccare sul sole la scritta START TRIP.  
+Link: https://dariozecchin.github.io/SpaceTravel/
+
+Per iniziare il viaggio cliccare sul sole al centro della pagina.  
 
 Se invece si vuole fare un viaggio direttamente in un pianeta aprire la voce PIANETI e scegliere il pianeta desiderato. 
 
