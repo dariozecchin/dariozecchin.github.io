@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+font-family: 'Bebas Neue', cursive;
+font-size:20px;
+line-height:1.5;
+box-sizing:border-box;
+margin:0;
+overflow-x:hidden;
+top: 0;
+left:0;
+color: white;
+padding-top:50px;
+background: url('Immagini/Sfondo.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight:500;
+
+}
+
+a:hover{
+  color:#e74c3c;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+footer{
+  padding-top:5rem;
+  font-size:15px;
+}
+
+@media (max-width: 970px) {
+    .dropdown-menu{
+          height:200px;
+          overflow-y:auto;
+       }
+    }
+    @media (max-width: 970px) {
+        .navbar{
+              position: sticky;
+              margin-top:0rem;
+              padding-top:0rem;
+           }
+           body{
+             padding-top:0px;
+           }
+        }
+
+
+
+
+
+
+.navbar{
+  padding: 1rem 1rem;
+}
+
+
+.navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration:none;
+}
+
+
+.navbar-brand{
+font-family: 'Bebas Neue', cursive;
+font-size: 2.5rem;
+color: #66a3ff;
+}
+
+
+.navbar-toggler{
+  background: #66a3ff;
+  border:none;
+  padding:10px 6px;
+  outline:none;
+}
+.navbar-toggler span
+{
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: #fff
+}
+.navbar-toggler span + span
+{
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+
+.navbar-toggler span + span + span
+{
+  width:10px;
+  margin-left:10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding:0rem 0rem;
+  font-size: 1.2rem;
+  position:relative;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  border-top: 2px solid #66a3ff;
+
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active{
+  border-top: 2px solid #66a3ff;
+  color: #66a3ff;
+}
+
+.navbar-nav {
+  color:white;
+  border-radius: 0;
+  font-size:1.2rem;
+  margin-top: 1px;
+
+}
+
+.navbar-collapse{
+  flex-basis: auto;
+}
+#logoID {
+  max-width: 50%;
+  height: auto;
+}
+
+#planetDropDown{
+  max-width: 75%;
+  height: auto;
+}
+
+.classRange{
+  width: 314px;
+  height: 15px;
+  -webkit-appearance: none;
+  background: lightgray;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.classRange::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background:black;
+  cursor: pointer;
+  box-shadow: -407px 0 0 400px blue;
+}
+
+@media only screen and (max-width: 576px){
+
+  .classRange{
+      width: 200px;
+      height: 15px;
+      -webkit-appearance: none;
+      background: white;
+      outline: none;
+      border-radius: 15px;
+      overflow: hidden;
+  }
+
+  .classRange::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background:black;
+      cursor: pointer;
+      box-shadow: -407px 0 0 400px aqua;
+      }
+
+  #btn1{
+      color: black;
+      border-radius: 12px;
+      background-color: aqua;
+      font-family: 'Bebas Neue', cursive;
+      width: 100px;
+      height: 50px;
+  }
+
+  #btn2{
+      color: black;
+      border-radius: 12px;
+      background-color: aqua;
+      font-family: 'Bebas Neue', cursive;
+      width: 200px;
+      height: 50px;
+  }
+
+  .classLabel{
+      font-family: 'Bebas Neue', cursive;
+      color: white;
+  }
+}
+
+
+.DomandeF1{
+  text-align: center;
+}
+
+.DomandeF2{
+  text-align: center;
+}
+
+.Bottone1{
+  text-align: center;
+}
+
+.Bottone2{
+  text-align: center;
+}
+
+#btn1{
+  color: white;
+  border-radius: 12px;
+  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+  width: 100px;
+  height: 50px;
+}
+
+#btn2{
+  color: white;
+  border-radius: 12px;
+  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+  width: 100px;
+  height: 78px;
+}
+.table{
+  color:white;
+ }
+
+#tableCol{
+  color:#66a3ff;
+}
+
+#tableCon{
+  padding-top:2rem;
+}
+
+thead, tbody, tfoot, tr, td, th{
+  border-style: hidden !important;
+}
+
+.contenitoreTestoIMG{
+  position: relative;
+  cursor: pointer;
+
+}
+
+#contenitoreTesto h2{
+  color: black;
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  left: 50%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}

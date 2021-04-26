@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+  text-align: center;
+  color: white;
+  background-image: url("Immagini/sfondodoc.jpg");
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.titolo {
+  font-size: 25px;
+}
+#nomepagina {
+  font-size: 25px;
+}
+.text {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
+}
+.sottotitolo {
+  font-size: 25px;
+}
+#table {
+  margin-left: auto;
+  margin-right: auto;
+}
